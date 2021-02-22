@@ -1,0 +1,72 @@
+﻿  Bubble.cpp
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\bubble.cpp(13): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\bubble.cpp(15): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Food.cpp
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\food.cpp(13): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\food.cpp(16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Game.cpp
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\game.cpp(72): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\game.cpp(74): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\game.cpp(82): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\game.cpp(185): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\game.cpp(186): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  main.cpp
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\main.cpp(29): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Snake.cpp
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\snake.cpp(41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\snake.cpp(44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\snake.cpp(345): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\snake.cpp(372): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  SnakePart.cpp
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\snakepart.cpp(13): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\thomas\documents\uni_stuff\c++\actualsnakegame\snakegame\snakegame\snakepart.cpp(16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+  SnakeGame.vcxproj -> C:\Users\Thomas\Documents\Uni_stuff\C++\ActualSnakeGame\SnakeGame\x64\Debug\SnakeGame.exe
