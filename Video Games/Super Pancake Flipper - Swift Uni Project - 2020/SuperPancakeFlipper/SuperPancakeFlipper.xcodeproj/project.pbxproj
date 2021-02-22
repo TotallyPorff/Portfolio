@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1D86B38255D850C00E25781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D86B37255D850C00E25781 /* AppDelegate.swift */; };
+		C1D86B3A255D850C00E25781 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1D86B39255D850C00E25781 /* GameScene.sks */; };
+		C1D86B3C255D850C00E25781 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1D86B3B255D850C00E25781 /* Actions.sks */; };
+		C1D86B3E255D850C00E25781 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D86B3D255D850C00E25781 /* GameScene.swift */; };
+		C1D86B40255D850C00E25781 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D86B3F255D850C00E25781 /* GameViewController.swift */; };
+		C1D86B43255D850C00E25781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D86B41255D850C00E25781 /* Main.storyboard */; };
+		C1D86B45255D850D00E25781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D86B44255D850D00E25781 /* Assets.xcassets */; };
+		C1D86B48255D850D00E25781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D86B46255D850D00E25781 /* LaunchScreen.storyboard */; };
+		C1D86B53255D850D00E25781 /* SuperPancakeFlipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D86B52255D850D00E25781 /* SuperPancakeFlipperTests.swift */; };
+		C1D86B5E255D850D00E25781 /* SuperPancakeFlipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D86B5D255D850D00E25781 /* SuperPancakeFlipperUITests.swift */; };
+		E97BA05A2590F16F0073ABBF /* SPFTheme.wav in Resources */ = {isa = PBXBuildFile; fileRef = E97BA0592590F16F0073ABBF /* SPFTheme.wav */; };
+		E97BA0612590F1F50073ABBF /* FinishedSFX.wav in Resources */ = {isa = PBXBuildFile; fileRef = E97BA05E2590F1F50073ABBF /* FinishedSFX.wav */; };
+		E97BA0622590F1F50073ABBF /* ButtonSFX.wav in Resources */ = {isa = PBXBuildFile; fileRef = E97BA05F2590F1F50073ABBF /* ButtonSFX.wav */; };
+		E97BA0632590F1F50073ABBF /* BinSFX.wav in Resources */ = {isa = PBXBuildFile; fileRef = E97BA0602590F1F50073ABBF /* BinSFX.wav */; };
+		E97BA08B2590FF7F0073ABBF /* ARCADECLASSIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E97BA08A2590FF7C0073ABBF /* ARCADECLASSIC.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1D86B4F255D850D00E25781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D86B2C255D850C00E25781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D86B33255D850C00E25781;
+			remoteInfo = SuperPancakeFlipper;
+		};
+		C1D86B5A255D850D00E25781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D86B2C255D850C00E25781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D86B33255D850C00E25781;
+			remoteInfo = SuperPancakeFlipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1D86B34255D850C00E25781 /* SuperPancakeFlipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperPancakeFlipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D86B37255D850C00E25781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1D86B39255D850C00E25781 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C1D86B3B255D850C00E25781 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C1D86B3D255D850C00E25781 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C1D86B3F255D850C00E25781 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C1D86B42255D850C00E25781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1D86B44255D850D00E25781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1D86B47255D850D00E25781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1D86B49255D850D00E25781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D86B4E255D850D00E25781 /* SuperPancakeFlipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperPancakeFlipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D86B52255D850D00E25781 /* SuperPancakeFlipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPancakeFlipperTests.swift; sourceTree = "<group>"; };
+		C1D86B54255D850D00E25781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D86B59255D850D00E25781 /* SuperPancakeFlipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperPancakeFlipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D86B5D255D850D00E25781 /* SuperPancakeFlipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPancakeFlipperUITests.swift; sourceTree = "<group>"; };
+		C1D86B5F255D850D00E25781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97BA0592590F16F0073ABBF /* SPFTheme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SPFTheme.wav; path = ../../Assets/Sounds/SPFTheme.wav; sourceTree = "<group>"; };
+		E97BA05E2590F1F50073ABBF /* FinishedSFX.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FinishedSFX.wav; path = ../../Assets/Sounds/FinishedSFX.wav; sourceTree = "<group>"; };
+		E97BA05F2590F1F50073ABBF /* ButtonSFX.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ButtonSFX.wav; path = ../../Assets/Sounds/ButtonSFX.wav; sourceTree = "<group>"; };
+		E97BA0602590F1F50073ABBF /* BinSFX.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = BinSFX.wav; path = ../../Assets/Sounds/BinSFX.wav; sourceTree = "<group>"; };
+		E97BA08A2590FF7C0073ABBF /* ARCADECLASSIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = ARCADECLASSIC.TTF; path = ../../../../Downloads/arcadeclassic/ARCADECLASSIC.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D86B31255D850C00E25781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D86B4B255D850D00E25781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D86B56255D850D00E25781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1D86B2B255D850C00E25781 = {
+			isa = PBXGroup;
+			children = (
+				C1D86B36255D850C00E25781 /* SuperPancakeFlipper */,
+				C1D86B51255D850D00E25781 /* SuperPancakeFlipperTests */,
+				C1D86B5C255D850D00E25781 /* SuperPancakeFlipperUITests */,
+				C1D86B35255D850C00E25781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1D86B35255D850C00E25781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D86B34255D850C00E25781 /* SuperPancakeFlipper.app */,
+				C1D86B4E255D850D00E25781 /* SuperPancakeFlipperTests.xctest */,
+				C1D86B59255D850D00E25781 /* SuperPancakeFlipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D86B36255D850C00E25781 /* SuperPancakeFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				E97BA0592590F16F0073ABBF /* SPFTheme.wav */,
+				E97BA0602590F1F50073ABBF /* BinSFX.wav */,
+				E97BA05F2590F1F50073ABBF /* ButtonSFX.wav */,
+				E97BA05E2590F1F50073ABBF /* FinishedSFX.wav */,
+				C1D86B37255D850C00E25781 /* AppDelegate.swift */,
+				C1D86B39255D850C00E25781 /* GameScene.sks */,
+				C1D86B3B255D850C00E25781 /* Actions.sks */,
+				C1D86B3D255D850C00E25781 /* GameScene.swift */,
+				C1D86B3F255D850C00E25781 /* GameViewController.swift */,
+				C1D86B41255D850C00E25781 /* Main.storyboard */,
+				C1D86B44255D850D00E25781 /* Assets.xcassets */,
+				C1D86B46255D850D00E25781 /* LaunchScreen.storyboard */,
+				C1D86B49255D850D00E25781 /* Info.plist */,
+				E97BA08A2590FF7C0073ABBF /* ARCADECLASSIC.TTF */,
+			);
+			path = SuperPancakeFlipper;
+			sourceTree = "<group>";
+		};
+		C1D86B51255D850D00E25781 /* SuperPancakeFlipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D86B52255D850D00E25781 /* SuperPancakeFlipperTests.swift */,
+				C1D86B54255D850D00E25781 /* Info.plist */,
+			);
+			path = SuperPancakeFlipperTests;
+			sourceTree = "<group>";
+		};
+		C1D86B5C255D850D00E25781 /* SuperPancakeFlipperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D86B5D255D850D00E25781 /* SuperPancakeFlipperUITests.swift */,
+				C1D86B5F255D850D00E25781 /* Info.plist */,
+			);
+			path = SuperPancakeFlipperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1D86B33255D850C00E25781 /* SuperPancakeFlipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D86B62255D850D00E25781 /* Build configuration list for PBXNativeTarget "SuperPancakeFlipper" */;
+			buildPhases = (
+				C1D86B30255D850C00E25781 /* Sources */,
+				C1D86B31255D850C00E25781 /* Frameworks */,
+				C1D86B32255D850C00E25781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperPancakeFlipper;
+			productName = SuperPancakeFlipper;
+			productReference = C1D86B34255D850C00E25781 /* SuperPancakeFlipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1D86B4D255D850D00E25781 /* SuperPancakeFlipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D86B65255D850D00E25781 /* Build configuration list for PBXNativeTarget "SuperPancakeFlipperTests" */;
+			buildPhases = (
+				C1D86B4A255D850D00E25781 /* Sources */,
+				C1D86B4B255D850D00E25781 /* Frameworks */,
+				C1D86B4C255D850D00E25781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D86B50255D850D00E25781 /* PBXTargetDependency */,
+			);
+			name = SuperPancakeFlipperTests;
+			productName = SuperPancakeFlipperTests;
+			productReference = C1D86B4E255D850D00E25781 /* SuperPancakeFlipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1D86B58255D850D00E25781 /* SuperPancakeFlipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D86B68255D850D00E25781 /* Build configuration list for PBXNativeTarget "SuperPancakeFlipperUITests" */;
+			buildPhases = (
+				C1D86B55255D850D00E25781 /* Sources */,
+				C1D86B56255D850D00E25781 /* Frameworks */,
+				C1D86B57255D850D00E25781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D86B5B255D850D00E25781 /* PBXTargetDependency */,
+			);
+			name = SuperPancakeFlipperUITests;
+			productName = SuperPancakeFlipperUITests;
+			productReference = C1D86B59255D850D00E25781 /* SuperPancakeFlipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1D86B2C255D850C00E25781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "KNIGHT, THOMAS (Student)";
+				TargetAttributes = {
+					C1D86B33255D850C00E25781 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C1D86B4D255D850D00E25781 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C1D86B33255D850C00E25781;
+					};
+					C1D86B58255D850D00E25781 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C1D86B33255D850C00E25781;
+					};
+				};
+			};
+			buildConfigurationList = C1D86B2F255D850C00E25781 /* Build configuration list for PBXProject "SuperPancakeFlipper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1D86B2B255D850C00E25781;
+			productRefGroup = C1D86B35255D850C00E25781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D86B33255D850C00E25781 /* SuperPancakeFlipper */,
+				C1D86B4D255D850D00E25781 /* SuperPancakeFlipperTests */,
+				C1D86B58255D850D00E25781 /* SuperPancakeFlipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1D86B32255D850C00E25781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97BA0632590F1F50073ABBF /* BinSFX.wav in Resources */,
+				C1D86B43255D850C00E25781 /* Main.storyboard in Resources */,
+				C1D86B3A255D850C00E25781 /* GameScene.sks in Resources */,
+				C1D86B45255D850D00E25781 /* Assets.xcassets in Resources */,
+				C1D86B48255D850D00E25781 /* LaunchScreen.storyboard in Resources */,
+				E97BA08B2590FF7F0073ABBF /* ARCADECLASSIC.TTF in Resources */,
+				E97BA05A2590F16F0073ABBF /* SPFTheme.wav in Resources */,
+				C1D86B3C255D850C00E25781 /* Actions.sks in Resources */,
+				E97BA0622590F1F50073ABBF /* ButtonSFX.wav in Resources */,
+				E97BA0612590F1F50073ABBF /* FinishedSFX.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D86B4C255D850D00E25781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D86B57255D850D00E25781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1D86B30255D850C00E25781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D86B3E255D850C00E25781 /* GameScene.swift in Sources */,
+				C1D86B40255D850C00E25781 /* GameViewController.swift in Sources */,
+				C1D86B38255D850C00E25781 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D86B4A255D850D00E25781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D86B53255D850D00E25781 /* SuperPancakeFlipperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D86B55255D850D00E25781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D86B5E255D850D00E25781 /* SuperPancakeFlipperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1D86B50255D850D00E25781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D86B33255D850C00E25781 /* SuperPancakeFlipper */;
+			targetProxy = C1D86B4F255D850D00E25781 /* PBXContainerItemProxy */;
+		};
+		C1D86B5B255D850D00E25781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D86B33255D850C00E25781 /* SuperPancakeFlipper */;
+			targetProxy = C1D86B5A255D850D00E25781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1D86B41255D850C00E25781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D86B42255D850C00E25781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1D86B46255D850D00E25781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D86B47255D850D00E25781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1D86B60255D850D00E25781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1D86B61255D850D00E25781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1D86B63255D850D00E25781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3T9Z9CNB8;
+				INFOPLIST_FILE = SuperPancakeFlipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThomasK.SuperPancakeFlipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1D86B64255D850D00E25781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3T9Z9CNB8;
+				INFOPLIST_FILE = SuperPancakeFlipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThomasK.SuperPancakeFlipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1D86B66255D850D00E25781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPancakeFlipperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThomasK.SuperPancakeFlipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperPancakeFlipper.app/SuperPancakeFlipper";
+			};
+			name = Debug;
+		};
+		C1D86B67255D850D00E25781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPancakeFlipperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThomasK.SuperPancakeFlipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperPancakeFlipper.app/SuperPancakeFlipper";
+			};
+			name = Release;
+		};
+		C1D86B69255D850D00E25781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPancakeFlipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThomasK.SuperPancakeFlipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperPancakeFlipper;
+			};
+			name = Debug;
+		};
+		C1D86B6A255D850D00E25781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPancakeFlipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThomasK.SuperPancakeFlipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperPancakeFlipper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1D86B2F255D850C00E25781 /* Build configuration list for PBXProject "SuperPancakeFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D86B60255D850D00E25781 /* Debug */,
+				C1D86B61255D850D00E25781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D86B62255D850D00E25781 /* Build configuration list for PBXNativeTarget "SuperPancakeFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D86B63255D850D00E25781 /* Debug */,
+				C1D86B64255D850D00E25781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D86B65255D850D00E25781 /* Build configuration list for PBXNativeTarget "SuperPancakeFlipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D86B66255D850D00E25781 /* Debug */,
+				C1D86B67255D850D00E25781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D86B68255D850D00E25781 /* Build configuration list for PBXNativeTarget "SuperPancakeFlipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D86B69255D850D00E25781 /* Debug */,
+				C1D86B6A255D850D00E25781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1D86B2C255D850C00E25781 /* Project object */;
+}
